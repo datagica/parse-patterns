@@ -1,7 +1,7 @@
 {
   "name": "@datagica/parse-patterns",
   "description": "Parse patterns",
-  "version": "0.0.8",
+  "version": "0.0.9",
   "scripts": {
     "test": "node_modules/.bin/mocha --harmony --bail --require chai tests/*.js"
   },
@@ -14,7 +14,7 @@
   "keywords": [],
   "main": "./lib/index.js",
   "dependencies": {
-    "@datagica/ontology": "^0.0.0",
+    "@datagica/ontology": "^0.0.1",
     "@datagica/parse-generic-entity": "^0.0.0"
   },
   "devDependencies": {
