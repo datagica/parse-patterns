@@ -1,0 +1,28 @@
+{
+  "name": "@datagica/parse-patterns",
+  "description": "Parse patterns",
+  "version": "0.0.8",
+  "scripts": {
+    "test": "node_modules/.bin/mocha --harmony --bail --require chai tests/*.js"
+  },
+  "author": "Julian Bilcke <julian.bilcke@datagica.com>",
+  "license": "GPL-3.0",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/datagica/parse-patterns.git"
+  },
+  "keywords": [],
+  "main": "./lib/index.js",
+  "dependencies": {
+    "@datagica/ontology": "^0.0.0",
+    "@datagica/parse-generic-entity": "^0.0.0"
+  },
+  "devDependencies": {
+    "chai": "^4.1.2",
+    "chai-fuzzy": "^1.6.1",
+    "deep-eql": "^3.0.1",
+    "lodash": "^4.17.5",
+    "mocha": "^5.0.1",
+    "underscore": "^1.8.3"
+  }
+}
